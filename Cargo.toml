@@ -1,0 +1,12 @@
+[package]
+name = "rs_csv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1"
+regex = "1.5"
+clap = "3.0"
+rayon = "1.5"
+polars = { version = "0.16", features = ["ndarray"]}
+
